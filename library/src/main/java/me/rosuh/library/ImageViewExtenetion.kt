@@ -76,7 +76,7 @@ fun ImageView?.loadCover(
     }
     Glide.with(this)
         .load(bgUrl)
-        .apply(bannerRequestOptions())
+        .apply(bannerRequestOptions(placeHolderResId, errorResId))
         .into(this)
 }
 
