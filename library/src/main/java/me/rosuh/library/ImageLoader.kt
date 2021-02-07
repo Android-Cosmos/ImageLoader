@@ -1,55 +1,55 @@
 package me.rosuh.library
 
-import androidx.annotation.IntegerRes
+import androidx.annotation.DrawableRes
 
 object ImageLoader {
 
-    @IntegerRes
+    @DrawableRes
     internal var errorIcon: Int = -1
 
-    @IntegerRes
+    @DrawableRes
     internal var placeholderIcon: Int = -1
 
-    @IntegerRes
+    @DrawableRes
     internal var errorAvatar: Int = -1
 
-    @IntegerRes
+    @DrawableRes
     internal var placeholderAvatar: Int = -1
 
-    @IntegerRes
+    @DrawableRes
     internal var errorCardView: Int = -1
 
-    @IntegerRes
+    @DrawableRes
     internal var placeholderCardView: Int = -1
 
-    @IntegerRes
+    @DrawableRes
     internal var errorBanner: Int = -1
 
-    @IntegerRes
+    @DrawableRes
     internal var placeholderBanner: Int = -1
 
     data class Config(
-        @IntegerRes
+        @DrawableRes
         internal var errorAvatar: Int = -1,
 
-        @IntegerRes
+        @DrawableRes
         internal var placeholderAvatar: Int = -1,
 
-        @IntegerRes
+        @DrawableRes
         internal var errorCardView: Int = -1,
 
-        @IntegerRes
+        @DrawableRes
         internal var placeholderCardView: Int = -1,
 
-        @IntegerRes
+        @DrawableRes
         internal var errorBanner: Int = -1,
 
-        @IntegerRes
+        @DrawableRes
         internal var placeholderBanner: Int = -1,
-        @IntegerRes
+        @DrawableRes
         internal var errorIcon: Int = -1,
 
-        @IntegerRes
+        @DrawableRes
         internal var placeholderIcon: Int = -1,
     ) {
         fun errorAvatar(resId: Int) = apply { this.errorAvatar = resId }
