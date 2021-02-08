@@ -5,8 +5,10 @@ plugins {
     id 'maven-publish'
 }
 
-group = 'com.github.rosuH'
-version = '1.1'
+
+
+group = rootProject.ext.libId
+version = rootProject.ext.libVersion
 
 android {
     compileSdkVersion 29
@@ -53,9 +55,9 @@ afterEvaluate {
                 from components.release
 
                 // You can then customize attributes of the publication as shown below.
-                groupId = 'com.github.rosuH'
+                groupId = rootProject.ext.libId
                 artifactId = 'final'
-                version = '1.1'
+                version = rootProject.ext.libVersion
             }
         }
     }

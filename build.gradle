@@ -24,3 +24,8 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext {
+    libVersion = '1.0.1'
+    libId = 'com.github.rosuH'
+}
