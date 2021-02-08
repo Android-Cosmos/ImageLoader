@@ -1,4 +1,4 @@
-package me.rosuh.library
+package me.rosuh.image
 
 import android.graphics.Bitmap
 import android.graphics.drawable.AnimationDrawable

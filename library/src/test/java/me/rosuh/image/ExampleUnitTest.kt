@@ -1,4 +1,4 @@
-package me.rosuh.library
+package me.rosuh.image
 
 import org.junit.Test
 

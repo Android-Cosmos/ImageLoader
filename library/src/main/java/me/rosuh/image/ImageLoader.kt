@@ -1,4 +1,4 @@
-package me.rosuh.library
+package me.rosuh.image
 
 import androidx.annotation.DrawableRes
 
